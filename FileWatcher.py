@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
 	# setup watchdog to monitor directory for trigger files
 	# path = '/Users/MyMac/Downloads/Test/'
-	paths = ['/Users/MyMac/Downloads/Test/','/Users/MyMac/Downloads/Test2/']
+	paths = ['/Users/x/Downloads/Test/','/Users/x/Downloads/Test2/']
 	event_handler = LoaderWatchdog(watchdog_queue)
 	observer = Observer()
 	
